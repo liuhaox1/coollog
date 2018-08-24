@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <Appenders>
+        <Console name="Console">
+            <PatternLayout pattern="%m    %      d{2006:01:02 15:04:05.000}    %n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Config>
+
+<!--<PatternLayout pattern="%dHH:mm:ss.SSS [%t] %-6p %c - %m%n"/>-->
